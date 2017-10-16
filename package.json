@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "custom-react-scripts": "0.2.0",
+    "custom-react-scripts": "^0.2.1",
     "lodash": "^4.17.4",
     "prop-types": "^15.5.10",
     "react": "^16.0.0-rc.3",
@@ -17,12 +17,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "node build.js",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "devDependencies": {
-    "shelljs": "^0.7.8",
-    "timeout-cli": "^0.3.2"
   }
 }
